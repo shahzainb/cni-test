@@ -2,6 +2,9 @@
 ---
 This repo contains my submission for the [CNI tech test](https://github.com/conde-nast-international/cnid-tech-tests).
 
+I tried to keep it as simple as possible, without using any frameworks.
+The only libraries I used were for some UI, such as Material UI.
+
 ### Getting Started
 ---
 Please ensure that you have NodeJS installed. It should work with any NodeJS version above 6.9,
