@@ -5,6 +5,8 @@ This repo contains my submission for the [CNI tech test](https://github.com/cond
 I tried to keep it as simple as possible, without using any frameworks.
 The only libraries I used were for some UI, such as Material UI.
 
+Using rollup simply to convert from the new module syntax (which is only supported in latest chrome behind a flag) to IIFE.
+
 ### Getting Started
 ---
 Please ensure that you have NodeJS installed. It should work with any NodeJS version above 6.9,
@@ -43,5 +45,6 @@ As with most tests, there was a bunch more I would've liked to have done, if the
 
 - Full server-side rendering
 - More tests and functional tests
+- Error handling and logging
 - Service workers for offline
 - UI tweaks for better UX
