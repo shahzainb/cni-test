@@ -1,0 +1,41 @@
+{
+  "name": "cni-test",
+  "version": "1.0.0",
+  "description": "CNI test",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "npm run start",
+    "start": "nodemon --exec \"npm run build && node index.js\" --watch src --watch public --watch index.js --ignore public/scripts/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahzainb/cni-test.git"
+  },
+  "author": "Shahzain Badruddin <shpunjani@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/shahzainb/cni-test/issues"
+  },
+  "homepage": "https://github.com/shahzainb/cni-test#readme",
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-es2015": "6.24.1",
+    "fetch-mock": "5.12.1",
+    "jest": "20.0.4",
+    "jsdom": "11.1.0",
+    "mocha": "3.5.0",
+    "nodemon": "1.11.0",
+    "sinon": "3.1.0"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "nprogress": "0.2.0",
+    "express": "4.15.4",
+    "rollup": "0.47.4",
+    "rollup-watch": "4.3.1"
+  }
+}
