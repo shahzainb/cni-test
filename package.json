@@ -27,15 +27,15 @@
     "jsdom": "11.1.0",
     "mocha": "3.5.0",
     "nodemon": "1.11.0",
-    "sinon": "3.1.0"
+    "sinon": "3.1.0",
+    "rollup": "0.47.4",
+    "rollup-watch": "4.3.1"
   },
   "jest": {
     "verbose": true
   },
   "dependencies": {
     "nprogress": "0.2.0",
-    "express": "4.15.4",
-    "rollup": "0.47.4",
-    "rollup-watch": "4.3.1"
+    "express": "4.15.4"
   }
 }
